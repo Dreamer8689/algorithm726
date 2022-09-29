@@ -22,7 +22,6 @@ public class LeetCode1 {
 
         int[] result = new int[2];
 
-        // 建立k-v ，一一对应的哈希表
         HashMap<Integer,Integer> hash = new HashMap<Integer,Integer>();
         for(int i = 0; i < nums.length; i++){
             if(hash.containsKey(nums[i])){
