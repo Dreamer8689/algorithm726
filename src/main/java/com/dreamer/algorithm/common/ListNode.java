@@ -1,13 +1,13 @@
-package com.dreamer.algorithm.day20221017;
+package com.dreamer.algorithm.common;
 
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
     ListNode() {
     }
 
-    ListNode(int val) {
+    public ListNode(int val) {
         this.val = val;
     }
 

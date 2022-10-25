@@ -1,6 +1,8 @@
 package com.dreamer.algorithm.day20221015;
 
 
+import com.dreamer.algorithm.common.ListNode;
+
 /**
  * LeetCode-21
  * 题目：合并两个有序链表
@@ -36,7 +38,7 @@ public class LeetCode21 {
 
     // 方法二 迭代解法
     public ListNode mergeTwoLists1(ListNode list1, ListNode list2) {
-        ListNode prehead = new ListNode(-1);
+        ListNode prehead = new ListNode(0);
 
         ListNode prev = prehead;
         while (list1 != null && list2 != null) {
